@@ -3,11 +3,12 @@
 [![Docker pipeline workflow](https://github.com/exaspace/docker-ansible/actions/workflows/main.yml/badge.svg)](https://github.com/exaspace/docker-ansible/actions/workflows/main.yml)
 
 
-  docker pull exaspace/ansible
+    docker pull exaspace/ansible
+
 
 Run an Ansible playbook in the current directory:
 
-  docker run --rm -v $PWD:/work -w /work exaspace/ansible ansible-playbook my-playbook.yml
+    docker run --rm -v $PWD:/work -w /work exaspace/ansible ansible-playbook my-playbook.yml
 
 * Small image size (roughly 150MB).
 * The image is rebuilt every week to ensure security updates and latest versions are applied
