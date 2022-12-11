@@ -5,7 +5,7 @@ on:
 
   schedule:
     # trigger every Sunday
-    - cron:  '* * * * 0'    
+    - cron:  '45 2 * * 0'    
   
   push:
     # trigger when a tag is pushed
